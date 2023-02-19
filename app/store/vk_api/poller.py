@@ -20,4 +20,4 @@ class Poller:
 
     async def poll(self):
         while self.is_running:
-            return self.poll_task
+            await self.poll_task
